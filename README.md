@@ -68,50 +68,50 @@ Exception: si la déclaration est courte, elle peut se faire sur une seule ligne
 Selecteurs
 ----------
 
-- ne JAMAIS utiliser d'identifiant (cela diminue la portabilité)
+ne JAMAIS utiliser d'identifiant (cela diminue la portabilité)
 
     #header {
 
     }
 
-- pas d'identifiant de tag inutile
+pas d'identifiant de tag inutile
 
     ul#navigation,
     ul.menu {
         border: 1px solid gray;
     }
 
-- pas d'ancètres (garder des sélecteurs courts)
+pas d'ancètres (garder des sélecteurs courts)
 
     html div tr td {
         text-align: center;
     }
 
-- utiliser une classe spécifique (gain de performance)
+utiliser une classe spécifique (gain de performance)
 
     .text-center {
         text-align: center;
     }
 
-- pas de selecteur universelle
+pas de selecteur universelle
 
     * {
         display: block;
     }
 
-- pas de sélecteur sans limite
+pas de sélecteur sans limite
 
     [class^="icon-"] {
         display: block;
     }
 
-- éviter d'utiliser "!important" (préférer revoir le DOM et créer une nouvelle classe)
+éviter d'utiliser "!important" (préférer revoir le DOM et créer une nouvelle classe)
 
 Exception
 
         .error { color: red !important; }
 
-- pas de sélecteur chainé ou joint (créer plutôt une nouvelle classe)
+pas de sélecteur chainé ou joint (créer plutôt une nouvelle classe)
 
     .toto.titi {
         width: 30px;
@@ -246,9 +246,9 @@ La mise en page doit être définit pas des classes spécifiques
 surcharge html
 --------------
 
-- pas de style en inline
+pas de style en inline
 
-- pas de code html de style 
+pas de code html de style 
 
     <i> <b> <strong>
 
