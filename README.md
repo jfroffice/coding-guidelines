@@ -31,7 +31,7 @@ Remarques:
 - les commentaires sont facultatifs car potentiellement pas à jour
 - créer un nouveau fichier plutôt que de rajouter une section
 
-formattage
+Formattage
 ----------
 - un sélecteur par ligne
 - un espace entre le sélecteur et la première accolage
@@ -40,7 +40,10 @@ formattage
 - toujours utiliser les doubles quotes
 - ne pas spécifier d'unité si la valeur est 0
 - séparer chaque règle par un espace
-- utiliser des minuscules et des déclarations courtes valeurs hexa (ex: #fff)
+- utiliser des minuscules
+- utiliser des déclarations courtes pour les valeurs hexa (ex: #fff)
+
+Exemple:
 
     .selector-1,
     .selector-2 {
@@ -56,14 +59,13 @@ formattage
         padding: 10px;
     }
 
-exception: si la déclaration est courte, elle peut se faire sur une seule ligne
+Exception: si la déclaration est courte, elle peut se faire sur une seule ligne
 
     .selector-1 { width: 10%; }
     .selector-2 { width: 20%; }
     .selector-3 { width: 30%; }
 
-
-selecteurs
+Selecteurs
 ----------
 
 ne JAMAIS utiliser d'identifiant (cela diminue la portabilité)
@@ -120,7 +122,7 @@ pas de sélecteur chainé ou joins
 
     => créer une nouvelle classe
 
-convention de nommage
+Convention de nommage
 ---------------------
 
 les sélecteurs doivent être nommés en minuscule avec un trait d'union pour décrire une dépendance hiérarchique
@@ -154,14 +156,14 @@ utiliser si possible la notation BEM (block element modifieur)
 
 La notation BEM est verbeuse mais elle permet de mieux connaitre les dépendances entre les déclarations utilisées et le DOM 
 
-localisation
+Localisation
 ------------
 
 utiliser l'anglais d'une façon générale.
 
 utiliser les paramètres régionaux de la langue que vous utilisez pour le code spéfique
 
-ordre de déclaration des sélecteurs
+Ordre de déclaration des sélecteurs
 -----------------------------------
 
 du plus général au plus spécifique
@@ -190,15 +192,15 @@ indenter les elements enfants en correspondance avec le DOM
             padding: 0.25em;
         }
 
-shame.css
+Shame.css
 ---------
 
 rassembler les régles qui sont honteuses dans un fichier shame.css
 
 cela sera pour vous l'occasion de les revoir et pourquoi pas de les supprimer plutard
 
-ordre des CSS
--------------
+Ordre des règles CSS
+--------------------
 
     .selector {
         /* Positioning */
@@ -283,8 +285,8 @@ Outils
 ------
 
 - CSS Explain
-- https://github.com/ai/autoprefixer
-- csscomb
+- (autoprefixer](https://github.com/ai/autoprefixer)
+- [csscomb](https://github.com/csscomb/csscomb.js)
 - recess
 - sass
 - Utiliser <<Audit>> de DevTools pour trouver les classes CSS inutilisés
