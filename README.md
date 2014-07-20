@@ -253,7 +253,9 @@ surcharge html
 
 pas de style en inline
 
-pas de code html de style (ex: <i> <b> <strong>)
+pas de code html de style 
+
+    <i> <b> <strong>
 
 
 OOCSS
@@ -272,31 +274,24 @@ En découpant un objet en structure (objet) et rendu (extensions)
 SCSS (Sweet CSS)
 ----------------
 
-permet de mettre en application OOCSS en évitant la duplication de code
+permet de mettre en application OOCSS en évitant la duplication de code et en permettant l'héritage de class
 
-et en permettant l'héritage de class
-
-
-
-Rq: Ne pas descendre à plus de 3 niveaux
-
+Remarque: Ne pas descendre à plus de 3 niveaux
 
 Outils
 ------
 
-- CSS Explain
-- (autoprefixer](https://github.com/ai/autoprefixer)
+- [CSS Explain](http://josh.github.io/css-explain/)
+- [autoprefixer](https://github.com/ai/autoprefixer)
 - [csscomb](https://github.com/csscomb/csscomb.js)
-- recess
-- sass
-- Utiliser <<Audit>> de DevTools pour trouver les classes CSS inutilisés
-
+- [recess](https://github.com/twitter/recess)
+- [sass](http://sass-lang.com)
+- Utiliser __Audit__ de DevTools pour trouver les classes CSS inutilisés
 
 TODO
 ----
 Ecritures de règles CSS est un métier de designer
 (cf SMACSS (reset, elements, ....))
-
 
 références
 ----------
