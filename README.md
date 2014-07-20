@@ -8,30 +8,26 @@ espace
 
 soft tabs of 4 spaces
 
-'''
-.btn {
-    background: #fff;
-}
-'''
+    .btn {
+        background: #fff;
+    }
 
 commentaires
 ------------
 
-'''
-/* commentaire simple */
+    /* commentaire simple */
 
-/**
- * commentaire multiline
- * TODO: 
- */
+    /**
+     * commentaire multiline
+     * TODO: 
+     */
 
-/* ==========================================================================
-   Section commentaires du bloc
-   ========================================================================== */
+    /* ==========================================================================
+       Section commentaires du bloc
+       ========================================================================== */
 
-/* Sous-section commentaires du bloc
-   ========================================================================== */
-'''
+    /* Sous-section commentaires du bloc
+       ========================================================================== */
 
 Remarques:
     les commentaires sont facultatifs car probablement pas à jour
@@ -267,13 +263,11 @@ L'objectif de OOCSS est d'avoir une approche objet.
 
 En découpant un objet en structure (objet) et rendu (extensions)
 
-'''
-.room { }
+    .room { }
 
-.room--kitchen { }
-.room--bedroom { }
-.room--bathroom { }
-'''
+    .room--kitchen { }
+    .room--bedroom { }
+    .room--bathroom { }
 
 SCSS (Sweet CSS)
 ----------------
@@ -306,6 +300,6 @@ Ecritures de règles CSS est un métier de designer
 
 références
 ----------
-https://github.com/topcoat/topcoat/wiki/Coding-Guidelines
-https://speakerdeck.com/jonrohan/githubs-css-performance
-https://github.com/csswizardry/CSS-Guidelines
+- https://github.com/topcoat/topcoat/wiki/Coding-Guidelines
+- https://speakerdeck.com/jonrohan/githubs-css-performance
+- https://github.com/csswizardry/CSS-Guidelines
