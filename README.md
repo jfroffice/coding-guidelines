@@ -6,7 +6,7 @@ Coding Guidelines
 espace
 ------
 
-soft tabs of 4 spaces
+
 
     .btn {
         background: #fff;
@@ -35,16 +35,14 @@ Remarques:
 
 formattage
 ----------
-un sélecteur par ligne
-un espace entre le sélecteur et la première accolage
-un espace entre la propriété et la valeur après :
-toujours rajouter des ; après une déclaration
-?? utilisé les doubles quotes ??
-ne pas spécifié d'unité si la valeur est 0
-mettre un espace après chaque propriété
-séparer chaque règle par un espace
-utiliser des minuscules et des déclarations courtes pour les valeurs hexa (ex: #fff)
-utiliser le separateur -
+- un sélecteur par ligne
+- un espace entre le sélecteur et la première accolage
+- un espace entre la propriété et la valeur après :
+- toujours rajouter des ; après une déclaration
+- toujours utiliser les doubles quotes
+- ne pas spécifier d'unité si la valeur est 0
+- séparer chaque règle par un espace
+- utiliser des minuscules et des déclarations courtes valeurs hexa (ex: #fff)
 
     .selector-1,
     .selector-2 {
@@ -60,9 +58,7 @@ utiliser le separateur -
         padding: 10px;
     }
 
-exception:
-
-    si la déclaration est courte, elle peut se faire sur une seule ligne
+exception: si la déclaration est courte, elle peut se faire sur une seule ligne
 
     .selector-1 { width: 10%; }
     .selector-2 { width: 20%; }
@@ -72,7 +68,7 @@ exception:
 selecteurs
 ----------
 
-pas d'identifiant (diminue la portabilité)
+ne JAMAIS utiliser d'identifiant (cela diminue la portabilité)
 
     #header {
 
@@ -142,17 +138,17 @@ pour la définition d'un état vous pouvez une classe d'état
 
 utiliser si possible la notation BEM (block element modifieur)
 
-.block {
-    
-}
+    .block {
+        
+    }
 
-.block__element {
-    
-}
+    .block__element {
+        
+    }
 
-.block--modifieur {
-    
-}
+    .block--modifieur {
+        
+    }
 
 .block représente le niveau supérieur d'une abstraction ou d'un composant.
 .block__element représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
@@ -235,17 +231,17 @@ mise en page
 
 La mise en page doit être définit pas des classes spécifiques
 
-.header--dark {
-    background: #c6c8c8;
-}
+    .header--dark {
+        background: #c6c8c8;
+    }
 
-/* ... Layout section */
+    /* ... Layout section */
 
-.span-3 {
-    width: 33.333%
-}
+    .span-3 {
+        width: 33.333%
+    }
 
-<header class="header--dark span-3"></header>
+    <header class="header--dark span-3"></header>
 
 
 surcharge html
@@ -302,4 +298,4 @@ références
 ----------
 - https://github.com/topcoat/topcoat/wiki/Coding-Guidelines
 - https://speakerdeck.com/jonrohan/githubs-css-performance
-- https://github.com/csswizardry/CSS-Guidelines
+- gihttps://github.com/csswizardry/CSS-Guidelines
