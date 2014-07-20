@@ -68,59 +68,54 @@ Exception: si la déclaration est courte, elle peut se faire sur une seule ligne
 Selecteurs
 ----------
 
-ne JAMAIS utiliser d'identifiant (cela diminue la portabilité)
+- ne JAMAIS utiliser d'identifiant (cela diminue la portabilité)
 
     #header {
 
     }
 
-pas d'identifiant de tag inutile
+- pas d'identifiant de tag inutile
 
     ul#navigation,
     ul.menu {
         border: 1px solid gray;
     }
 
-pas d'ancètres (garder des sélecteurs courts)
+- pas d'ancètres (garder des sélecteurs courts)
 
     html div tr td {
         text-align: center;
     }
 
-utiliser une classe spécifique (gain de performance)
+- utiliser une classe spécifique (gain de performance)
 
     .text-center {
         text-align: center;
     }
 
-pas de selecteur universelle
+- pas de selecteur universelle
 
     * {
         display: block;
     }
 
-pas de sélecteur sans limite
+- pas de sélecteur sans limite
 
     [class^="icon-"] {
         display: block;
     }
 
-éviter d'utiliser "!important"
+- éviter d'utiliser "!important" (préférer revoir le DOM et créer une nouvelle classe)
 
-    
-    préférer revoir le DOM et créer une nouvelle classe
-
-    exception
+Exception
 
         .error { color: red !important; }
 
-pas de sélecteur chainé ou joins
+- pas de sélecteur chainé ou joint (créer plutôt une nouvelle classe)
 
     .toto.titi {
         width: 30px;
     }
-
-    => créer une nouvelle classe
 
 Convention de nommage
 ---------------------
@@ -251,9 +246,9 @@ La mise en page doit être définit pas des classes spécifiques
 surcharge html
 --------------
 
-pas de style en inline
+- pas de style en inline
 
-pas de code html de style 
+- pas de code html de style 
 
     <i> <b> <strong>
 
@@ -285,7 +280,7 @@ Outils
 - [autoprefixer](https://github.com/ai/autoprefixer)
 - [csscomb](https://github.com/csscomb/csscomb.js)
 - [recess](https://github.com/twitter/recess)
-- [sass](http://sass-lang.com)
+- [SASS](http://sass-lang.com)
 - Utiliser __Audit__ de DevTools pour trouver les classes CSS inutilisés
 
 TODO
