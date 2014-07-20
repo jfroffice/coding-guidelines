@@ -1,4 +1,4 @@
-coding guidelines
+Coding Guidelines
 =================
 
 (orienté performance)
@@ -8,13 +8,16 @@ espace
 
 soft tabs of 4 spaces
 
+'''
 .btn {
     background: #fff;
 }
+'''
 
 commentaires
 ------------
 
+'''
 /* commentaire simple */
 
 /**
@@ -28,6 +31,7 @@ commentaires
 
 /* Sous-section commentaires du bloc
    ========================================================================== */
+'''
 
 Remarques:
     les commentaires sont facultatifs car probablement pas à jour
@@ -263,12 +267,13 @@ L'objectif de OOCSS est d'avoir une approche objet.
 
 En découpant un objet en structure (objet) et rendu (extensions)
 
+'''
 .room { }
 
 .room--kitchen { }
 .room--bedroom { }
 .room--bathroom { }
-
+'''
 
 SCSS (Sweet CSS)
 ----------------
