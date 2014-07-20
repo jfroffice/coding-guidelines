@@ -1,15 +1,13 @@
 Coding Guidelines
 =================
 
-(orienté performance)
-
 espace
 ------
 
-
-
     .btn {
-        background: #fff;
+        box-sizing: border-box;
+        display: block;
+        background: #f00;
     }
 
 commentaires
@@ -30,8 +28,8 @@ commentaires
        ========================================================================== */
 
 Remarques:
-    les commentaires sont facultatifs car probablement pas à jour
-    créer un nouveau fichier plutôt que de rajouter une section
+- les commentaires sont facultatifs car potentiellement pas à jour
+- créer un nouveau fichier plutôt que de rajouter une section
 
 formattage
 ----------
@@ -128,7 +126,7 @@ convention de nommage
 les sélecteurs doivent être nommés en minuscule avec un trait d'union pour décrire une dépendance hiérarchique
 
     .widget
-    .widget-heading
+    .widget-headin
 
 pour la définition d'un état vous pouvez une classe d'état
 
@@ -192,8 +190,12 @@ indenter les elements enfants en correspondance avec le DOM
             padding: 0.25em;
         }
 
-rassembler les régles qui vont paresses honteuses dans un fichier shame.css
-ce sera pour vous l'occasion de les revoir et pourquoi pas de les supprimer plutard
+shame.css
+---------
+
+rassembler les régles qui sont honteuses dans un fichier shame.css
+
+cela sera pour vous l'occasion de les revoir et pourquoi pas de les supprimer plutard
 
 ordre des CSS
 -------------
@@ -298,4 +300,4 @@ références
 ----------
 - https://github.com/topcoat/topcoat/wiki/Coding-Guidelines
 - https://speakerdeck.com/jonrohan/githubs-css-performance
-- gihttps://github.com/csswizardry/CSS-Guidelines
+- https://github.com/csswizardry/CSS-Guidelines
