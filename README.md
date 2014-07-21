@@ -129,9 +129,9 @@ Convention de nommage (BEM)
 les sélecteurs doivent être nommés en minuscule avec un trait d'union pour décrire une dépendance hiérarchique
 
     .widget
-    .widget-headin
+    .widget-heading
 
-pour la définition d'un état vous pouvez une classe d'état
+pour la définition d'un état, utiliser une classe d'état
 
     .is-enable
     .is-disable
@@ -151,9 +151,9 @@ utiliser si possible la notation BEM (block element modifieur)
         
     }
 
-.block représente le niveau supérieur d'une abstraction ou d'un composant.
-.block__element représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
-.block--modifieur représente un état ou une version différente de .block.
+__.block__ représente le niveau supérieur d'une abstraction ou d'un composant.
+__.block__element__ représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
+__.block--modifieur__ représente un état ou une version différente de .block.
 
 La notation BEM est verbeuse mais elle permet de mieux connaitre les dépendances entre les déclarations utilisées et le DOM 
 
