@@ -4,9 +4,9 @@ Coding Guidelines
 Les Espaces
 -----------
 
-Ne jamais mélanger les espaces et les tabulations.
+Ne jamais mélanger les espaces et les tabulations
 
-Préférer des identations avec 4 espaces.
+Préférer des identations avec 4 espaces
 
     .bloc {
         box-sizing: border-box;
@@ -14,8 +14,12 @@ Préférer des identations avec 4 espaces.
         background: #f00;
     }
 
-commentaires
-------------
+Les Commentaires
+----------------
+
+les commentaires sont facultatifs car ils ne sont pas forcément à jour
+si vous jugez nécessaire d'ajouter un commentaire qu'il soit utile
+créer un nouveau fichier plutôt que de rajouter une section
 
     /* commentaire simple */
 
@@ -31,24 +35,8 @@ commentaires
     /* Sous-section commentaires du bloc
        ========================================================================== */
 
-Remarques:
-
-- les commentaires sont facultatifs car ils ne sont pas forcément à jour
-- si vous jugez nécessaire d'ajouter un commentaire qu'il soit utile
-- créer un nouveau fichier plutôt que de rajouter une section
-
 Formatage
 ---------
-- un sélecteur par ligne
-- un espace entre le sélecteur et la première accolage
-- un espace entre la propriété et la valeur après :
-- toujours rajouter des ; après une déclaration
-- toujours utiliser les doubles quotes
-- ne pas spécifier d'unité si la valeur est 0
-- séparer chaque règle par un espace
-- utiliser des minuscules
-- utiliser des déclarations courtes pour les valeurs hexa (ex: #fff)
-
 Exemple:
 
     .selector-1,
@@ -65,7 +53,19 @@ Exemple:
         padding: 10px;
     }
 
-Exception: si la déclaration est courte, elle peut se faire sur une seule ligne
+
+- un sélecteur par ligne
+- un espace entre le sélecteur et la première accolage
+- un espace entre la propriété et la valeur après :
+- toujours rajouter des ; après une déclaration
+- toujours utiliser les doubles quotes
+- ne pas spécifier d'unité si la valeur est 0
+- séparer chaque règle par un espace
+- utiliser des minuscules
+- utiliser des déclarations courtes pour les valeurs hexa (ex: #fff)
+
+
+Exception: si la déclaration est courte, elle peut être écrite sur une seule ligne
 
     .selector-1 { width: 10%; }
     .selector-2 { width: 20%; }
