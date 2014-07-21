@@ -123,8 +123,8 @@ pas de sélecteur chainé ou joint (créer plutôt une nouvelle classe)
         width: 30px;
     }
 
-Convention de nommage
----------------------
+Convention de nommage (BEM)
+---------------------------
 
 les sélecteurs doivent être nommés en minuscule avec un trait d'union pour décrire une dépendance hiérarchique
 
@@ -200,6 +200,15 @@ rassembler les régles qui sont honteuses dans un fichier shame.css
 
 cela sera pour vous l'occasion de les revoir et pourquoi pas de les supprimer plutard
 
+Surcharge html
+--------------
+
+pas de style en inline
+
+pas de code html de style 
+
+    <i> <b> <strong>
+
 Ordre des règles CSS
 --------------------
 
@@ -231,7 +240,7 @@ Ordre des règles CSS
 
 utiliser un outil (ex: csscomb) pour préserver l'ordre des CSS afin de garantir une meilleure réutilisabilité et maintenabilité du code
 
-mise en page
+Mise en page
 ------------
 
 La mise en page doit être définit pas des classes spécifiques
@@ -248,15 +257,6 @@ La mise en page doit être définit pas des classes spécifiques
 
     <header class="header--dark span-3"></header>
 
-
-surcharge html
---------------
-
-pas de style en inline
-
-pas de code html de style 
-
-    <i> <b> <strong>
 
 
 OOCSS
