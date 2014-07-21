@@ -193,14 +193,14 @@ indenter les elements enfants en correspondance avec le DOM
             padding: 0.25em;
         }
 
-Shame.css
----------
+[Shame.css](http://csswizardry.com/2013/04/shame-css/)
+-----------
 
 rassembler les régles qui sont honteuses dans un fichier shame.css
 
 cela sera pour vous l'occasion de les revoir et pourquoi pas de les supprimer plutard
 
-Surcharge html
+Surcharge HTML
 --------------
 
 pas de style en inline
