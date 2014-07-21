@@ -1,10 +1,14 @@
 Coding Guidelines
 =================
 
-espace
-------
+Les Espaces
+-----------
 
-    .btn {
+Ne jamais mélanger les espaces et les tabulations.
+
+Préférer des identations avec 4 espaces.
+
+    .bloc {
         box-sizing: border-box;
         display: block;
         background: #f00;
@@ -28,11 +32,13 @@ commentaires
        ========================================================================== */
 
 Remarques:
-- les commentaires sont facultatifs car potentiellement pas à jour
+
+- les commentaires sont facultatifs car ils ne sont pas forcément à jour
+- si vous jugez nécessaire d'ajouter un commentaire qu'il soit utile
 - créer un nouveau fichier plutôt que de rajouter une section
 
-Formattage
-----------
+Formatage
+---------
 - un sélecteur par ligne
 - un espace entre le sélecteur et la première accolage
 - un espace entre la propriété et la valeur après :
