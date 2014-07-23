@@ -87,7 +87,7 @@ pas d'identifiant de tag inutile
         border: 1px solid gray;
     }
 
-pas d'ancètres (garder des sélecteurs courts)
+pas d'ancêtres (garder des sélecteurs courts)
 
     html div tr td {
         text-align: center;
@@ -115,11 +115,11 @@ pas de sélecteur sans limite
 
 Exception
 
-        .error { color: red !important; }
+    .error { color: red !important; }
 
 pas de sélecteur chainé ou joint (créer plutôt une nouvelle classe)
 
-    .toto.titi {
+    .menu.text-center {
         width: 30px;
     }
 
@@ -137,7 +137,7 @@ pour la définition d'un état, utiliser une classe d'état
     .is-disable
     .is-hidden
 
-utiliser si possible la notation BEM (block element modifieur)
+utiliser si possible la notation __BEM__ (block element modifieur)
 
     .block {
         
@@ -151,9 +151,9 @@ utiliser si possible la notation BEM (block element modifieur)
         
     }
 
-__.block__ représente le niveau supérieur d'une abstraction ou d'un composant.
-__.block__element__ représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
-__.block--modifieur__ représente un état ou une version différente de .block.
+- __.block__ représente le niveau supérieur d'une abstraction ou d'un composant.
+- __.block__element__ représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
+- __.block--modifieur__ représente un état ou une version différente de .block.
 
 La notation BEM est verbeuse mais elle permet de mieux connaitre les dépendances entre les déclarations utilisées et le DOM 
 
@@ -162,7 +162,7 @@ Localisation
 
 utiliser l'anglais d'une façon générale.
 
-utiliser les paramètres régionaux de la langue que vous utilisez pour le code spéfique
+utiliser les paramètres régionaux de la langue que vous utilisez pour le code spécifique
 
 Ordre de déclaration des sélecteurs
 -----------------------------------
@@ -256,28 +256,6 @@ La mise en page doit être définit pas des classes spécifiques
     }
 
     <header class="header--dark span-3"></header>
-
-
-
-OOCSS
------
-
-L'objectif de OOCSS est d'avoir une approche objet.
-
-En découpant un objet en structure (objet) et rendu (extensions)
-
-    .room { }
-
-    .room--kitchen { }
-    .room--bedroom { }
-    .room--bathroom { }
-
-SCSS (Sweet CSS)
-----------------
-
-permet de mettre en application OOCSS en évitant la duplication de code et en permettant l'héritage de class
-
-Remarque: Ne pas descendre à plus de 3 niveaux
 
 Outils
 ------
